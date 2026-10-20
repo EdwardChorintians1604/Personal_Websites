@@ -11,6 +11,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Tools from './components/Tools';
 import Portfolio from './components/Portfolio';
+import Experiences from './components/experiences';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import SkillModal from './components/SkillModal';
@@ -35,6 +36,7 @@ function App() {
         <About />
         <Skills onOpenModal={(key) => setModalKey(key)} />
         <Tools onOpenModal={(key) => setModalKey(key)} />
+        <Experiences />
         <Portfolio />
         <Contact />
       </main>

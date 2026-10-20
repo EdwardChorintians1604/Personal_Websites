@@ -43,6 +43,7 @@ export default function Navbar() {
           <li><a href="#about" onClick={(e) => handleNavClick(e, '#about')}>Tentang</a></li>
           <li><a href="#skills" onClick={(e) => handleNavClick(e, '#skills')}>Skill</a></li>
           <li><a href="#tools" onClick={(e) => handleNavClick(e, '#tools')}>Tools</a></li>
+          <li><a href="#experiences" onClick={(e) => handleNavClick(e, '#experiences')}>Pengalaman</a></li>
           <li><a href="#portfolio" onClick={(e) => handleNavClick(e, '#portfolio')}>Portfolio</a></li>
           <li><a href="#contact" onClick={(e) => handleNavClick(e, '#contact')}>Kontak</a></li>
         </ul>
@@ -82,6 +83,9 @@ export default function Navbar() {
         </a>
         <a href="#tools" className="sidenav-link" onClick={(e) => handleNavClick(e, '#tools')}>
           Tools
+        </a>
+        <a href="#experiences" className="sidenav-link" onClick={(e) => handleNavClick(e, '#experiences')}>
+          Pengalaman
         </a>
         <a href="#portfolio" className="sidenav-link" onClick={(e) => handleNavClick(e, '#portfolio')}>
           Portfolio

@@ -5,7 +5,7 @@ export default function Portfolio() {
   return (
     <section id="portfolio">
       <div className="section-header" data-aos="fade-up">
-        <p className="section-label">// 03 — Portfolio</p>
+        <p className="section-label">// 05 — Portfolio</p>
         <h2 className="section-title">Portfolio &amp; Proyek</h2>
         <div className="ornament">
           <div className="ornament-line"></div>

@@ -399,6 +399,159 @@ export const portfolioProjects = [
   }
 ];
 
+export const experiencesData = [
+  {
+    id: 'diskominfo',
+    title: 'Magang Software & IT di DISKOMINFO',
+    subtitle: 'Dinas Komunikasi dan Informatika (Instansi Pemerintahan)',
+    role: 'Software Engineering & IT Intern',
+    category: 'magang',
+    categoryLabel: 'Magang Instansi',
+    period: '2024',
+    location: 'Dinas Komunikasi dan Informatika',
+    img: '/image/coding_pictures.jpg',
+    fallbackImg: '/image/coding_pictures.jpg',
+    icon: 'bi-building-gear',
+    badgeColor: 'gold',
+    desc: 'Pengalaman magang profesional di instansi pemerintahan DISKOMINFO. Berperan aktif dalam digitalisasi layanan informasi publik, pemeliharaan infrastruktur portal website dinas, integrasi database, dan penguatan keamanan data instansi.',
+    highlights: [
+      'Pengembangan & optimalisasi modul sistem informasi publik untuk efisiensi pelayanan masyarakat',
+      'Manajemen basis data relasional serta integrasi REST API sistem kedinasan',
+      'Penerapan standar keamanan informasi, audit data berkala, dan kolaborasi teknis bersama tim IT instansi'
+    ],
+    tags: ['Web Development', 'PHP', 'MySQL / PostgreSQL', 'REST API', 'Public Services', 'System Security'],
+    link: 'https://github.com/EdwardChorintians1604',
+    linkType: 'github',
+    btnText: 'Lihat Dokumentasi',
+    btnIcon: 'bi-github'
+  },
+  {
+    id: 'kuliah',
+    title: 'Perjalanan Akademik & Organisasi Kampus',
+    subtitle: 'Pengembangan Keilmuan IT, Riset Algoritma & Kepemimpinan',
+    role: 'Mahasiswa & Tech Innovator',
+    category: 'kuliah',
+    categoryLabel: 'Akademik & Kampus',
+    period: '2021 — Sekarang',
+    location: 'Perguruan Tinggi & UKM IT',
+    img: '/image/UKM IT Cybernetix.png',
+    fallbackImg: '/image/Foto_edward.jpg',
+    icon: 'bi-mortarboard',
+    badgeColor: 'cyan',
+    desc: 'Menempuh perkuliahan di bidang Teknologi Informasi dengan konsentrasi pada Rekayasa Perangkat Lunak dan Kecerdasan Buatan (AI). Berperan aktif dalam UKM IT Cybernetix dan kepanitiaan organisasi mahasiswa, mengembangkan riset mandiri serta inisiatif pelatihan teknologi.',
+    highlights: [
+      'Penguasaan fondasi kuat ilmu komputer: Algoritma, Struktur Data, OOP (Java), dan Full-Stack Web Development',
+      'Riset dan implementasi algoritma AI (Machine Learning, Fuzzy Logic, Case-Based Reasoning, Computer Vision)',
+      'Aktif di UKM IT Cybernetix dalam berbagai kegiatan coding bootcamp, workshop teknologi, dan desain grafis kreatif'
+    ],
+    tags: ['Computer Science', 'Python AI', 'Data Structures', 'OOP Java', 'UKM IT Cybernetix', 'Leadership'],
+    link: 'https://github.com/EdwardChorintians1604',
+    linkType: 'github',
+    btnText: 'Lihat Portfolio',
+    btnIcon: 'bi-github'
+  },
+  {
+    id: 'maththon',
+    title: 'MathThon — Interactive Math Learning',
+    subtitle: 'Aplikasi Web Edukasi KABATAKU Interaktif',
+    role: 'Creator & Full-Stack Developer',
+    category: 'project',
+    categoryLabel: 'Project Pribadi',
+    period: '2024',
+    location: 'Project Pribadi (EdTech)',
+    img: '/image/Toko Masabuk Jaya.png',
+    fallbackImg: '/image/coding_pictures.jpg',
+    icon: 'bi-calculator',
+    badgeColor: 'gold',
+    desc: 'Aplikasi web pembelajaran matematika interaktif yang mempermudah siapapun dalam melatih kecepatan dan ketepatan operasi KABATAKU (Kali, Bagi, Tambah, Kurang) dengan visualisasi modern, sistem skor real-time, dan gamifikasi kuis edukatif.',
+    highlights: [
+      'Generator soal dinamis dengan level berjenjang (Dasar, Menengah, Mahir) untuk melatih daya pikir aritmatika',
+      'Sistem evaluasi skor instan dilengkapi timer tantangan dan analitik akurasi berhitung',
+      'Desain antarmuka responsif dan ringan yang dapat diakses lancar di smartphone maupun desktop'
+    ],
+    tags: ['React', 'JavaScript', 'EdTech', 'Interactive UI', 'Gamification Logic', 'CSS3'],
+    link: 'https://github.com/EdwardChorintians1604',
+    linkType: 'github',
+    btnText: 'Repository GitHub',
+    btnIcon: 'bi-github'
+  },
+  {
+    id: 'gracepoint',
+    title: 'GracePoint Church Management System',
+    subtitle: 'SaaS & VPS Cloud Management Platform',
+    role: 'System Architect & Full-Stack Developer',
+    category: 'project',
+    categoryLabel: 'Project Pribadi',
+    period: '2024',
+    location: 'Cloud VPS / Production SaaS',
+    img: '/image/GracePoint.png',
+    fallbackImg: '/image/coding_pictures.jpg',
+    icon: 'bi-church',
+    badgeColor: 'crimson',
+    desc: 'Sistem Informasi Manajemen Gereja berbasis Cloud VPS dan arsitektur SaaS dengan antarmuka yang elegan dan bersih. Membantu gereja mendigitalisasi administrasi jemaat terpusat, jadwal ibadah, modul warta jemaat digital, dan transparansi keuangan secara terintegrasi.',
+    highlights: [
+      'Sentralisasi basis data jemaat terstruktur (profil keluarga, sakramen, dan departemen pelayanan)',
+      'Modul warta digital dinamis, manajemen jadwal pelayan ibadah, dan pelaporan persembahan & kas transparan',
+      'Dideploy mandiri di infrastruktur server VPS dengan konfigurasi keamanan SSL dan kontrol hak akses'
+    ],
+    tags: ['SaaS Architecture', 'VPS Deployment', 'PostgreSQL', 'Python / Web', 'Database Security'],
+    link: 'https://github.com/EdwardChorintians1604',
+    linkType: 'github',
+    btnText: 'Repository GitHub',
+    btnIcon: 'bi-github'
+  },
+  {
+    id: 'gmki',
+    title: 'Platform Website GMKI Cabang Padang',
+    subtitle: 'Portal Resmi Gerakan Mahasiswa Kristen Indonesia Cabang Padang',
+    role: 'Lead Web Developer & IT Coordinator',
+    category: 'platform',
+    categoryLabel: 'Platform Organisasi',
+    period: '2023 — 2024',
+    location: 'Organisasi GMKI Cabang Padang',
+    img: '/image/GMKI_Layers.jpeg',
+    fallbackImg: '/image/coding_pictures.jpg',
+    icon: 'bi-globe2',
+    badgeColor: 'cyan',
+    desc: 'Website resmi organisasi GMKI Cabang Padang yang dibangun sebagai pusat transparansi informasi, publikasi kegiatan kaderisasi kemahasiswaan, arsip berkas organisasi, serta jembatan komunikasi digital yang representatif.',
+    highlights: [
+      'Portal berita dan agenda kegiatan cabang yang selalu terbarukan untuk konsumsi publik dan kader',
+      'Sentralisasi arsip dokumen digital, sejarah kepengurusan, dan modul informasi keorganisasian',
+      'Desain responsif yang mengedepankan identitas visual organisasi, aksesibilitas tinggi, dan standar SEO'
+    ],
+    tags: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Web', 'SEO Optimization', 'Organizational Portal'],
+    link: 'https://github.com/EdwardChorintians1604',
+    linkType: 'github',
+    btnText: 'Kunjungi Platform',
+    btnIcon: 'bi-globe'
+  },
+  {
+    id: 'pyth-mbti',
+    title: 'Pyth-MBTI Psychology Detector',
+    subtitle: 'AI-Powered Personality Assessment Platform',
+    role: 'AI & Machine Learning Developer',
+    category: 'ai',
+    categoryLabel: 'AI & Data Science',
+    period: '2024',
+    location: 'Streamlit Cloud / Live Web App',
+    img: '/image/Pyth-MBTI.png',
+    fallbackImg: '/image/python_pictures.png',
+    icon: 'bi-cpu-fill',
+    badgeColor: 'gold',
+    desc: 'Platform deteksi tipe kepribadian 16 MBTI cerdas yang memanfaatkan kecerdasan buatan berbasis metode Case-Based Reasoning (CBR). Menganalisis parameter psikologis dan mencocokkan kemiripan kasus secara akurat dalam hitungan detik.',
+    highlights: [
+      'Penerapan algoritma Case-Based Reasoning (CBR) untuk inferensi pencocokan profil psikologis',
+      'Dashboard analitik komprehensif menampilkan visualisasi skor kepribadian, potensi diri, dan rekomendasi karir',
+      'Telah dideploy secara publik di platform Streamlit Cloud dengan pemrosesan komputasi cepat dan responsif'
+    ],
+    tags: ['Python', 'Streamlit', 'Case-Based Reasoning (CBR)', 'Artificial Intelligence', 'Data Science'],
+    link: 'https://pyth-mbtipsychologydetector-wnpxvxpkgr8txetxjs5qms.streamlit.app/',
+    linkType: 'live',
+    btnText: 'Buka Aplikasi Live',
+    btnIcon: 'bi-play-circle-fill'
+  }
+];
+
 export const socialLinks = [
   {
     title: 'Facebook',
