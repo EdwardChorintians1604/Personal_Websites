@@ -3,7 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" href="/image/Foto_edward.jpg" />
+  <!-- Standard Favicons for Googlebot, iOS, Android, and all browsers -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#0a0a0f" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Erantus Paripurna Samaloisa (Edward James) | Personal Portfolio</title>
 
@@ -17,6 +24,7 @@
 
   <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Erantus Paripurna Samaloisa Portfolio" />
   <meta property="og:url" content="https://personal-websites-psi.vercel.app/" />
   <meta property="og:title" content="Erantus Paripurna Samaloisa (Edward James) | Personal Portfolio" />
   <meta property="og:description" content="Portfolio resmi Erantus Paripurna Samaloisa — Full Stack Developer & AI Enthusiast. Menampilkan karya arsitektur web modern dan integrasi AI." />
@@ -29,18 +37,31 @@
   <meta name="twitter:description" content="Portfolio resmi Erantus Paripurna Samaloisa — Full Stack Developer & AI Enthusiast." />
   <meta name="twitter:image" content="https://personal-websites-psi.vercel.app/image/Foto_edward.jpg" />
 
-  <!-- Structured Data (JSON-LD) for Google Search Engine Knowledge Graph -->
+  <!-- Structured Data (JSON-LD) for Google Search Engine Knowledge Graph & Site Name -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Erantus Paripurna Samaloisa",
-    "alternateName": ["Edward Christiano James", "Edward James", "Edward Chorintians", "EdwardChorintians1604"],
-    "url": "https://personal-websites-psi.vercel.app/",
-    "image": "https://personal-websites-psi.vercel.app/image/Foto_edward.jpg",
-    "jobTitle": "Full Stack Developer & AI Enthusiast",
-    "sameAs": [
-      "https://github.com/EdwardChorintians1604"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://personal-websites-psi.vercel.app/#website",
+        "url": "https://personal-websites-psi.vercel.app/",
+        "name": "Erantus Paripurna Samaloisa Portfolio",
+        "alternateName": ["Edward James Portfolio", "Edward Chorintians Portfolio"],
+        "inLanguage": "id-ID"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://personal-websites-psi.vercel.app/#person",
+        "name": "Erantus Paripurna Samaloisa",
+        "alternateName": ["Edward Christiano James", "Edward James", "Edward Chorintians", "EdwardChorintians1604"],
+        "url": "https://personal-websites-psi.vercel.app/",
+        "image": "https://personal-websites-psi.vercel.app/image/Foto_edward.jpg",
+        "jobTitle": "Full Stack Developer & AI Enthusiast",
+        "sameAs": [
+          "https://github.com/EdwardChorintians1604"
+        ]
+      }
     ]
   }
   </script>
